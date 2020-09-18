@@ -22,7 +22,7 @@ public class RecordDTO implements Serializable {
 	
 	public RecordDTO(Record entity) {
 		id = entity.getId();
-		moment = entity.getMoments();
+		moment = entity.getMoment();
 		name = entity.getName();
 		age = entity.getAge();
 		gameTitle = entity.getGame().getTitle();

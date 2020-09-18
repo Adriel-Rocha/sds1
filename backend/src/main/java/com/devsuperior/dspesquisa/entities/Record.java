@@ -63,11 +63,11 @@ public class Record implements Serializable {
 		this.age = age;
 	}
 
-	public Instant getMoments() {
+	public Instant getMoment() {
 		return moment;
 	}
 
-	public void setMoments(Instant moment) {
+	public void setMoment(Instant moment) {
 		this.moment = moment;
 	}
 
@@ -102,5 +102,5 @@ public class Record implements Serializable {
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
-	}
+	}	
 }
